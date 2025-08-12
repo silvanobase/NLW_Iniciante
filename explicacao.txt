@@ -1,0 +1,13 @@
+Diferença entre pixel(px) e rem
+
+Div é uma tag html que não tem significado, é apenas uma caixa usada para agrupar conteúdo.
+
+
+Síncrono:
+Em programação síncrona, as operações são executadas sequencialmente, uma após a outra. O programa precisa esperar que cada operação termine antes de iniciar a próxima, o que pode levar a atrasos se uma operação for demorada. 
+Assíncrono:
+Em programação assíncrona, as operações podem ser iniciadas e continuarem a ser executadas em segundo plano enquanto o programa realiza outras tarefas. Isso evita bloqueios e melhora a eficiência do programa, especialmente quando lidando com operações de entrada/saída (como leitura de arquivos, chamadas de rede, etc.). 
+Exemplo:
+Imagine fazer um pedido em um restaurante. Em programação síncrona, você esperaria o seu prato ficar pronto antes de fazer outra coisa. Em programação assíncrona, você faria o pedido e poderia fazer outras coisas, como responder e-mails, enquanto o prato é preparado. 
+
+Para converter texto de MarkDown em HTML, utilizo a biblioteca showdown javascript
