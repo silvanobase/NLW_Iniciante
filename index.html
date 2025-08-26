@@ -2,57 +2,53 @@
 <html lang="pt-br">
 
 <head>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8"><!-- Serve para configurar os caracteres, como os especiais tbm -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Serve para configurar o tamanho da viewport para se adaptar ao tamanho de cada dispositivo. Lembrando que viewport é apenas a parte branca quando começamos com um projeto -->
-    <link rel="shortcut icon" href="nlw.png" type="image/x-icon">
+    <title>NLW-Agents</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <img src="./assets/logo.png" alt="">
+        <img src="./assets/logo.png" alt="Logo nlw-agents">
     </header>
 
     <main>
         <section>
             <div>
-            <h2 class="title">Assistente Meta</h2>
-            <p>Pergunte sobre estratégias, build e dicas para seus
-                jogos!
-            </p>
+                <h2 class="title">Assistente de Meta</h2>
+                <p>Pergunte sobre estratégias, build e dicas para seus jogos!</p>
 
-            <form id="form">
-                <input id="apiKey" type="password" placeholder="Informe a API KEY Gemini" required>
+                <form id="form">
+                    <input id="apiKey" type="password" placeholder="Informe a API Key do Gemini" required>
 
-                <select id="gameSelect">
-                    <option value="">Selecione um jogo</option>
-                    <option value="valorant">Valorante</option>
-                    <option value="lol">League of Legends</option>
-                    <option value="csgo">CS:GO</option>
-                </select>
+                    <select id="gameSelect">
+                        <option value="">Selecone um jogo</option>
+                        <option value="valorant">Valorante</option>
+                        <option value="lol">League of Legends</option>
+                        <option value="csgo">CS:GO</option>
+                    </select>
 
-                <input id="questionInput" type="text" placeholder="Ex: Melhor build para ADC ..." required>
+                    <input id="question" type="text" placeholder="Ex: Melhor build para ADC..." required>
+                    <button id="askButton">Perguntar</button>
+                </form>
 
-                <button id="askButton">Perguntar</button>
-            </form>
+                <div id="aiResponse">
+                    <div id="response-content">
 
-            <div id="aiResponse" class="hidden">
-                <div class="response-content">
-
+                    </div>
                 </div>
             </div>
-        </div>
         </section>
     </main>
 </body>
 
-<script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
-<script src="./script.js"></script>
+<script src="script.js"></script>
 </html>
