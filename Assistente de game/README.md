@@ -11,7 +11,7 @@
 Assistente inteligente alimentado por IA para jogadores de e-sports — estratégias, builds e dicas em tempo real com o poder do Google Gemini.
 
 <br/>
-<img src="c:\Users\Fany\Pictures\Screenshots\Captura de Tela (523).png">
+<img src="Captura de Tela (523).png">
 
 </div>
 
