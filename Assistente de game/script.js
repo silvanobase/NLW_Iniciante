@@ -8,7 +8,7 @@ const markdownToHTML = (text) => {
     return converter.makeHtml(text)
 }
 
-const apiKeyTrue = 'SUA_CHAVE_DE_API_AQUI' // Substitua pela sua chave de API do Google Gemini; 
+const apiKeyTrue = 'AIzaSyAwS9i0TjEvm-S-sH_DTuojOCmp0Zj_K4w'; 
 const perguntarAI = async(question) => {
  const model = "gemini-2.5-flash"
  const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKeyTrue}`

@@ -11,7 +11,7 @@
 Assistente inteligente alimentado por IA para jogadores de e-sports — estratégias, builds e dicas em tempo real com o poder do Google Gemini.
 
 <br/>
-Mostrar Imagem
+c:\Users\Fany\Pictures\Screenshots\Captura de Tela (523).png
 </div>
 
 📋 Índice
@@ -64,14 +64,15 @@ const API_KEY = "SUA_CHAVE_AQUI";
 Por fim, abra o ficheiro index.html diretamente no navegador ou utilize a extensão Live Server no VS Code.
 
 📁 Estrutura do Projeto
-nlw-agents/
-│
-├── 📄 index.html          # Página principal
-├── 🎨 style.css           # Estilos e tema dark
-├── ⚙️  script.js           # Lógica e integração com a API
-├── 📁 assets/
-│   └── 🖼️  preview.png    # Screenshot do projeto
-└── 📄 README.md
+<br/>
+nlw-agents/<br/>
+│<br/>
+├── 📄 index.html          # Página principal<br/>
+├── 🎨 style.css           # Estilos e tema dark<br/>
+├── ⚙️  script.js           # Lógica e integração com a API<br/>
+├── 📁 assets/<br/>
+│   └── 🖼️  preview.png    # Screenshot do projeto<br/>
+└── 📄 README.md<br/>
 
 💡 Como Usar
 
