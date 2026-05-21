@@ -1,5 +1,3 @@
-const apiKeyInput = document.getElementById('apiKey')
-const gameSelect = document.getElementById('gameSelect')
 const questionInput = document.getElementById('question')
 const askButton = document.getElementById('askButton')
 const aiResponse = document.getElementById('aiResponse')
@@ -10,7 +8,7 @@ const markdownToHTML = (text) => {
     return converter.makeHtml(text)
 }
 
-const apiKeyTrue = 'AIzaSyAwS9i0TjEvm-S-sH_DTuojOCmp0Zj_K4w';
+const apiKeyTrue = 'AIzaSyAwS9i0TjEvm-S-sH_DTuojOCmp0Zj_K4w'; 
 const perguntarAI = async(question) => {
  const model = "gemini-2.5-flash"
  const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKeyTrue}`
