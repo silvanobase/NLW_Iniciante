@@ -11,22 +11,21 @@ const markdownToHTML = (text) => {
 }
 
 const apiKeyTrue = 'AIzaSyAwS9i0TjEvm-S-sH_DTuojOCmp0Zj_K4w';
-const perguntarAI = async(question, game, apiKey) => {
+const perguntarAI = async(question) => {
  const model = "gemini-2.5-flash"
- const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`
+ const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKeyTrue}`
  const pergunta = `
     ## Especialidade
-        Você é um especialista assistente de meta para o jogo ${game}
+        Você é um especialista assistente de meta para todo tipo de jogo
 
         ## Tarefa
         Você deve responder as perguntas do usuário com base no seu conhecimento do jogo, estratégias, build e dicas
 
         ## Regras
         - Se você não sabe a resposta, responda com 'Não sei' ou procure dizer onde foi que errei ou a palavra chave que faltaria.
-        - Se a pergunta não está relacionada ao jogo, responda com 'Essa pergunta não está relacionada ao jogo'.
         - Considere a data atual ${new Date().toLocaleDateString()}
-        - Faça pesquisas atualizadas sobre o patch atual, baseado na data atual, para dar uma resposta coerente.
-        - Nunca responda itens que você não tenha certeza de que existe no patch atual.
+        - Faça pesquisas atualizadas, baseado na data atual, para dar uma resposta coerente.
+        - Nunca responda itens que você não tenha certeza de que existe na data atual.
 
         ## Resposta
         - Economize na resposta, seja direto e responda no máximo 500 caracteres
@@ -38,7 +37,7 @@ const perguntarAI = async(question, game, apiKey) => {
 
         ---
 
-        Aqui está pergunta do usuário: ${question} 
+        Aqui está a pergunta do usuário: ${question} 
  `
  const contents = [
     {
@@ -73,17 +72,12 @@ const perguntarAI = async(question, game, apiKey) => {
 
 form.addEventListener('submit', async(e) => {
     e.preventDefault()
-    const apiKey = apiKeyInput.value
-    const game = gameSelect.value
+
     const question = questionInput.value
 
-    if(apiKey !== apiKeyTrue){
-        alert('Chave da API incorreta!')
-        return
-    }
 
-    if(game == '' || question == ''){
-        alert('Preencha todos os campos corretamente!')
+    if(question == ''){
+        alert('Faça alguma pergunta no assistente!')
         return
     }
 
@@ -93,7 +87,7 @@ form.addEventListener('submit', async(e) => {
     askButton.classList.add('loading')
 
     try {
-       const text = await perguntarAI(question, game, apiKey)
+       const text = await perguntarAI(question)
         aiResponse.querySelector('#response-content').innerHTML = markdownToHTML(text)
         aiResponse.classList.remove('hidden')
     } catch (error) {

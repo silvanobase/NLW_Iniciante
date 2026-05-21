@@ -1,0 +1,91 @@
+body{
+  font-family: Arial, sans-serif ;
+  background: linear-gradient(to bottom right, #1a1a2e, #16213e);
+    /*
+  A direção do gradiente. Ele começa na parte superior esquerda (top left) e se move diagonalmente para a parte inferior direita (bottom right).
+#1a1a2e: A primeira cor, um azul escuro.
+#16213e: A segunda cor, outro tom de azul escuro, um pouco mais profundo. 
+  */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.08);
+  
+  border-radius: 15px;
+  width: 450px;
+  text-align: center;
+  box-shadow: 0 4px 15px  rgba(0,0,0,0.4);
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+input {
+  width: 70%;
+}
+
+button {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#quizContainer{
+  margin-top: 20px;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.optionBtn {
+  margin: 5px 0;
+  padding: 10px;
+  background: #0f3460;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.optionBtn:hover {
+  background: #533483;
+}
+
+.correct {
+  background: #16c79a !important;
+}
+
+.incorrect {
+  background: #e94560 !important;
+}
+
+.hidden {
+  display: none;
+}

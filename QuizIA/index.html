@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz com IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Quiz com IA</h1>
+        <p>Escolha um tema e teste seus conhecimentos!</p>
+
+        <div class="controls">
+            <input type="text" id="topicInput" placeholder="Digite um tema (ex: Programação, Teologia...)">
+            <button id="generateBtn">Gerar Quiz</button>
+        </div>
+
+        <div id="quizContainer" class="hidden">
+            <h1 id="question"></h1>
+            <div id="options"></div>
+            <button id="nextBtn" class="hidden">Próxima pergunta</button>
+        </div>
+
+        <div id="resultContainer" class="hidden">
+            <h2>Resultado</h2>
+            <p id="score"></p>
+            <button id="restartBtn">Reiniciar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
