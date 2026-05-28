@@ -44,11 +44,11 @@ Funcionalidades
 
 
 🛠️ Tecnologias<br/>
-Tecnologia           Finalidade <br/>
-HTML5                Estrutura semântica da aplicação <br/>
-CSS3                 Estilização, layout e tema escuro<br/>
-JavaScript (ES6+)    Lógica, interatividade e consumo da API<br/>
-Gemini API (Google)  Geração inteligente das perguntas de quiz<br/>
+
+HTML5 ---> Estrutura semântica da aplicação <br/>
+CSS3  ---> Estilização, layout e tema escuro<br/>
+JavaScript (ES6+) ---> Lógica, interatividade e consumo da API<br/>
+Gemini API (Google) ---> Geração inteligente das perguntas de quiz<br/>
 
 🚀 Como Executar
 Pré-requisitos
