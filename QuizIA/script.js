@@ -1,4 +1,4 @@
-const apiKey = "SUA_CHAVE_DE_API_AQUI"; // Substitua pela sua chave de API do Google Cloud
+const apiKey = "AIzaSyDUpEKAT8u3SbHZ9VtBLYJoaYYg26DbYAM";
 const model = "gemini-2.5-flash";
 const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 

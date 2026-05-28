@@ -52,7 +52,7 @@ Chave de API do Google Gemini
 
 Passo a passo
 bash# Clone o repositório
-git clone https://github.com/silvano-ginina/quiz-ia.git
+git clone https://github.com/silvanobase/NLW_Iniciante/tree/22f7b1a155174481ec88c3f78f2058ad3346fff6/QuizIA
 
 # Acesse a pasta do projeto
 cd quiz-ia
