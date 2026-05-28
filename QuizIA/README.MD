@@ -14,19 +14,22 @@ Gera quiz personalizados sobre qualquer tema com o poder da Inteligência Artifi
 <img src="Captura de Tela (524).png">
 </div>
 
+<br/>
+<br/>
+
 📋 Índice
 
-Sobre o Projeto
-Funcionalidades
-Tecnologias
-Como Executar
-Estrutura do Projeto
-Como Usar
-Aprendizados
-Autor
+Sobre o Projeto<br/>
+Funcionalidades<br/>
+Tecnologias<br/>
+Como Executar<br/>
+Estrutura do Projeto<br/>
+Como Usar<br/>
+Aprendizados<br/>
+Autor<br/>
 
 
-💡 Sobre o Projeto
+💡 Sobre o Projeto<br/>
 O Quiz com IA é uma aplicação web interativa que utiliza a API do Gemini (Google AI) para gerar perguntas de quiz dinamicamente sobre qualquer tema escolhido pelo utilizador.
 Diferente dos quizzes tradicionais com banco de perguntas fixo, este projeto aproveita o potencial da Inteligência Artificial para criar perguntas únicas e variadas a cada nova sessão — tornando a experiência sempre nova e desafiante.
 Basta digitar um tema como "Programação", "Teologia", "História de Angola" ou qualquer outro assunto, e a IA gera as questões na hora!
@@ -40,8 +43,12 @@ Funcionalidades
  Experiência única a cada sessão — sem perguntas repetidas
 
 
-🛠️ Tecnologias
-TecnologiaFinalidadeHTML5Estrutura semântica da aplicaçãoCSS3Estilização, layout e tema escuroJavaScript (ES6+)Lógica, interatividade e consumo da APIGemini API (Google)Geração inteligente das perguntas de quiz
+🛠️ Tecnologias<br/>
+Tecnologia           Finalidade <br/>
+HTML5                Estrutura semântica da aplicação <br/>
+CSS3                 Estilização, layout e tema escuro<br/>
+JavaScript (ES6+)    Lógica, interatividade e consumo da API<br/>
+Gemini API (Google)  Geração inteligente das perguntas de quiz<br/>
 
 🚀 Como Executar
 Pré-requisitos
