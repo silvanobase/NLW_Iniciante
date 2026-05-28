@@ -62,21 +62,21 @@ bash# Clone o repositório
 git clone https://github.com/silvanobase/NLW_Iniciante/tree/22f7b1a155174481ec88c3f78f2058ad3346fff6/QuizIA
 
 # Acesse a pasta do projeto
-cd quiz-ia
-Configure a sua chave da API no ficheiro JavaScript:
-javascript// script.js
-const API_KEY = "SUA_CHAVE_AQUI";
-Abra o ficheiro index.html no navegador ou use o Live Server no VS Code.
+cd quiz-ia<br/>
+Configure a sua chave da API no ficheiro JavaScript:<br/>
+javascript// script.js<br/>
+const API_KEY = "SUA_CHAVE_AQUI";<br/>
+Abra o ficheiro index.html no navegador ou use o Live Server no VS Code.<br/>
 
-📁 Estrutura do Projeto
-quiz-ia/
-│
-├── 📄 index.html          # Página principal
-├── 🎨 style.css           # Estilos e tema escuro
-├── ⚙️  script.js           # Lógica e integração com a Gemini API
-├── 📁 assets/
-│   └── 🖼️  preview.png    # Screenshot do projeto
-└── 📄 README.md
+📁 Estrutura do Projeto<br/>
+quiz-ia/<br/>
+│<br/>
+├── 📄 index.html          # Página principal<br/>
+├── 🎨 style.css           # Estilos e tema escuro<br/>
+├── ⚙️  script.js           # Lógica e integração com a Gemini API<br/>
+├── 📁 assets/<br/>
+│   └── 🖼️  preview.png    # Screenshot do projeto<br/>
+└── 📄 README.md<br/>
 
 🎮 Como Usar
 
@@ -87,7 +87,7 @@ Aguarda a IA criar as perguntas e responde a cada uma
 Descobre a tua pontuação e testa novamente com um tema diferente! 🏆
 
 
-📚 Aprendizados
+📚 Aprendizados<br/>
 Com este projeto, desenvolvi e reforcei os seguintes conhecimentos:
 
 Integração com IA generativa via Google Gemini API
